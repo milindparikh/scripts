@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-my $zipfile = "/home/milind/Downloads/us_postal_codes.csv";
+my $zipfile = "./us_postal_codes.csv";
 
 open (ZIPFILE, $zipfile) || die ("Unable to open file ");
 $aLine = <ZIPFILE>;

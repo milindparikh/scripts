@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-my $lnamesfile = "/home/milind/Downloads/lnames.txt";
+my $lnamesfile = "./lnames.txt";
 
 
 open (LNAMESFILE, $lnamesfile) || die ("Unable to open file ");

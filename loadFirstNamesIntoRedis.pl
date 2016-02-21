@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-my $fnamesfile = "/home/milind/Downloads/fnames.txt";
+my $fnamesfile = "./fnames.txt";
 
 
 open (FNAMESFILE, $fnamesfile) || die ("Unable to open file ");
